@@ -9,7 +9,7 @@ body {
     background-color: #fff;
 }
 h2,h3 {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 h3 {
     font-weight: 500;
@@ -30,35 +30,42 @@ a {
 /* хедер */
 .logo {
     font-family: "Raleway", sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 3%;
+    font-size: 18px;
+    letter-spacing: 0.03em;
     line-height: 1.17;
 }
-.logo-color {
-    color: #4D5AE5;
+.logo-header {
+    color: #2e2f42;
 }
 .header-nav-list {
    font-weight: 500;
-   color: #2E2F42;
+   color: #2e2f42;
+   
 }
 .header-contacts {
     color: #434455;
 }
-.active {
-    text-decoration: underline;
+.header-nav-link {
+    letter-spacing: 0.02em;
 }
+/* .active {
+    text-decoration: underline;
+} */
 .header-nav-list a:hover,
 .header-nav-list a:focus,
 .header-contacts a:hover,
 .header-contacts a:focus{
     color: #404BBF;
 }
-/* .header-contacts a:hover,
-.header-contacts a:focus{
-    color: #404BBF;
-} */
+.header-contacts {
+    font-style: normal;
+}
+.header-contacts-link {
+    letter-spacing: 0.02em;
+}
 /* Hero section */
 .hero {
     background-color: #2E2F42;
@@ -88,6 +95,7 @@ h1 {
     background-color: #2E2F42;
     color: #fff;
 }
-.footer-logo {
+
+.logo-footer {
     color: #fff;
 }
