@@ -82,6 +82,7 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .button {
     background-color: #4D5AE5;
